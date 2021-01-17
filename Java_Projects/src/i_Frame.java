@@ -6,6 +6,8 @@ public class i_Frame {
 
 	public static void main(String[] args) {
 		
+		String path = "C:\\Users\\Admin\\Software\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", path);
 		
 		WebDriver driver = new ChromeDriver(); //navigates to the Browser
 	    driver.get("http://demo.guru99.com/test/guru99home/"); 
